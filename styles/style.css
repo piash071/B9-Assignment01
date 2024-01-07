@@ -12,11 +12,38 @@
 .banner .banner-text{
     color: #FFF;
     text-align: center;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 35px;
     padding: 145px;
     background: rgba(24, 20, 20, 0.441);
 }
 .banner .banner-text .happy-h3-text{
     font-weight: 100;
+}
+
+.all-cate{
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.all-cate > h1{
+    margin: 13px auto;
+    text-align: center;
+    font-size: 70px;
+    color: red;
+}
+.all-cate > h6{
+    font-size: 18px;
+    text-align: center;
+    color: red;
+}
+.all-cate > h3{
+    font-size: 36px;
+    text-align: center;
+    color: black;
+}
+.all-cate > img{
+    display: block;
+    width: 657px;
+    margin: auto;
 }
