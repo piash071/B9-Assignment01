@@ -14,7 +14,7 @@
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 35px;
-    padding: 145px;
+    padding: 143px;
     background: rgba(24, 20, 20, 0.441);
 }
 .banner .banner-text .happy-h3-text{
@@ -46,4 +46,53 @@
     display: block;
     width: 657px;
     margin: auto;
+}
+
+.banner2{
+    background-image: url(../resources/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+}
+
+.twenty-four{
+    width: 320px;
+    height: 464px;
+    padding-top: 50px;
+    padding-right: 100px;
+}
+.banner2 .banner2-text{
+    background: rgba(18, 16, 16, 0.441);
+}
+
+.banner2 .banner2-text > h1{
+    width: 642px;
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    padding: 126px 0 0 103px;
+}
+
+.banner2 .banner2-text > p{
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 20px 0 0 100px;
+    
+}
+.a-first{
+    border-radius: 2px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 11px 20px 10px 97px;
+}
 }
