@@ -116,3 +116,77 @@
     padding: 15px;
     cursor: pointer;
 }
+.portfolio-section{
+    width: 1320px;
+    height: 600px;
+    margin: 120px auto; 
+}
+
+.portfolio > h3{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+}
+
+.portfolio > h1{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    text-transform: capitalize;
+    padding: 6px auto;
+}
+
+.portfolio > p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.box-img{
+    display: block;
+    justify-content: space-between;
+    width: 1320px;  
+}
+.box-img > img{
+    width: 424px;
+    
+    padding: 6.5px;
+    border-radius: 10px;
+}
+.subscribe{
+    text-align: center;
+}
+.subscribe > h1{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.subscribe > p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+form.subscribe-btn > input{
+    color: #991c1c;
+    margin: auto;
+    width: 260px;
+    height: 38px;
+    border-radius: 5px;
+    padding: 2px 0 0 0;
+}
+form.subscribe-btn button:hover {
+    background: #c7500b;
+    height: 40px;
+    width: 150px;
+    
+  }
+  form.subscribe-btn > button{
+    font-size: 29px;
+    border-radius: 5px;
+    background-color: #c7500b;
+  }
