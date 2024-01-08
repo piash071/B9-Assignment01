@@ -36,30 +36,33 @@
     font-size: 18px;
     text-align: center;
     color: red;
+    padding: 4px;
 }
 .all-cate > h3{
     font-size: 36px;
     text-align: center;
     color: black;
+    padding: 2px;
 }
 .all-cate > img{
     display: block;
     width: 657px;
     margin: auto;
+    padding: 2px 0 0 0;
 }
 
 .banner2{
-    background-image: url(../resources/Vectorrr.png);
+    background-image: url(../resources/vectors.png);
     width: 1320px;
     height: 600px;
     margin: 120px auto;
     display: flex;
     justify-content: space-between;
-    background-repeat: no-repeat;
+    
 }
 
-.twenty-four{
-    width: 320px;
+.banner2 .twenty-four{
+    width: 300px;
     height: 464px;
     padding-top: 50px;
     padding-right: 100px;
@@ -87,7 +90,7 @@
     padding: 20px 0 0 100px;
     
 }
-.a-first{
+.banner2 .banner2-text .a-first{
     border-radius: 2px;
     border: 0;
     color: white;
@@ -96,6 +99,7 @@
     padding: 11px 20px 10px 97px;
     
 }
+
 
 
 .park-text{
@@ -118,7 +122,7 @@
 }
 .portfolio-section{
     width: 1320px;
-    height: 600px;
+    height: 400px;
     margin: 120px auto; 
 }
 
@@ -148,14 +152,16 @@
     justify-content: space-between;
     width: 1320px;  
 }
-.box-img > img{
+/* .box-img > img{
     width: 424px;
     
     padding: 6.5px;
     border-radius: 10px;
-}
+} */
+
 .subscribe{
     text-align: center;
+    padding: 650px 5px 5px 5px; 
 }
 .subscribe > h1{
     color: #070211;
@@ -190,3 +196,44 @@ form.subscribe-btn button:hover {
     border-radius: 5px;
     background-color: #c7500b;
   }
+/* .footer-section{
+    background: #070211;
+    width: 1350px;
+    height: 400px;
+} */
+footer {
+    background-color: black;
+    color: white;
+    /* bottom: 0;
+    width: 100vw; */
+    font-size: 16px;
+  }
+  /* footer * {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  } */
+
+  .foot-h{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 40px 0 0 60px;
+   
+  }
+  .foot-h-right{
+    text-align: right;
+    padding: 0 70px 90px 0;
+    width: 50%;
+  }
+  /* #footer {
+    font-family: Arial;
+    font-size: .9em;
+    color: #24ACAE;
+    border-top: 1px solid #24ACAE;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-top: 5px;
+    } */
+
