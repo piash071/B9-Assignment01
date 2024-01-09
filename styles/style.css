@@ -141,7 +141,7 @@
 }
 .coming-soon-text{
     padding-right: 65px;
-    padding-top: 90px;
+    padding-top: 95px;
     
 }
 .coming-soon-text > h3{
@@ -201,7 +201,51 @@
     padding: 7px 0 9px 0;
 }
 
+.holiday-text-h3{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.holiday-text-h1{
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
 
+.holiday-text-paragraph{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+
+
+.holiday{
+    text-align: center;
+    line-height: 45px;
+}
+.holiday-color{
+    color: red;
+}
+
+.holy-img-part{
+    display: flex;
+    justify-content: center;
+}
+.holiday-img-red{
+    padding-bottom: 100px;
+}
+.holiday-img-women{
+    padding-right: 80px;
+}
 
 
 
@@ -237,12 +281,7 @@
     justify-content: space-between;
     width: 1320px;  
 }
-/* .box-img > img{
-    width: 424px;
-    
-    padding: 6.5px;
-    border-radius: 10px;
-} */
+
 
 .subscribe{
     text-align: center;
